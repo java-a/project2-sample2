@@ -1,0 +1,30 @@
+.button{
+    -fx-background-color:rgb(255,255,255,0.3);
+    -fx-font-size:25;
+    -fx-background-radius:15;
+    -fx-text-fill:black;
+}
+.button:hover{
+    -fx-background-color:rgb(255,255,255,0.5);
+}
+
+.label{
+    -fx-background-color:rgb(255,255,255,0.3);
+    -fx-background-radius:15;
+}
+.list-view{
+    -fx-base:transparent;
+    -fx-background-color:rgb(255,255,255,0.5);
+    -fx-background-radius:15;
+}
+.list-cell{
+    -fx-background-color:transparent;
+    -fx-font-size:18;
+    -fx-background-radius:15;
+}
+.list-cell:filled:hover{
+    -fx-background-color:lightblue;
+}
+.list-cell:filled:selected{
+    -fx-background-color:blue;
+}
